@@ -5,7 +5,7 @@ import { popupReducer } from "./popupReducer";
 
 const PopupState = ({ children }) => {
     const initialState = {
-        isOpened: true
+        isOpened: false
     }
 
     const [state, dispatch] = useReducer(popupReducer, initialState)
