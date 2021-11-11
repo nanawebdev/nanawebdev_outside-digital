@@ -1,4 +1,4 @@
-ame: cd
+name: cd
 
 on: [push, pull_request]
 
