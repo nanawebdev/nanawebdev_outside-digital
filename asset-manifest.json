@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nanawebdev_outside-digital/static/css/main.936be129.chunk.css",
-    "main.js": "/nanawebdev_outside-digital/static/js/main.184d71ea.chunk.js",
-    "main.js.map": "/nanawebdev_outside-digital/static/js/main.184d71ea.chunk.js.map",
+    "main.css": "/nanawebdev_outside-digital/static/css/main.16a9989d.chunk.css",
+    "main.js": "/nanawebdev_outside-digital/static/js/main.306a587a.chunk.js",
+    "main.js.map": "/nanawebdev_outside-digital/static/js/main.306a587a.chunk.js.map",
     "runtime-main.js": "/nanawebdev_outside-digital/static/js/runtime-main.b5cf080c.js",
     "runtime-main.js.map": "/nanawebdev_outside-digital/static/js/runtime-main.b5cf080c.js.map",
     "static/js/2.6162c70d.chunk.js": "/nanawebdev_outside-digital/static/js/2.6162c70d.chunk.js",
     "static/js/2.6162c70d.chunk.js.map": "/nanawebdev_outside-digital/static/js/2.6162c70d.chunk.js.map",
     "index.html": "/nanawebdev_outside-digital/index.html",
-    "static/css/main.936be129.chunk.css.map": "/nanawebdev_outside-digital/static/css/main.936be129.chunk.css.map",
+    "static/css/main.16a9989d.chunk.css.map": "/nanawebdev_outside-digital/static/css/main.16a9989d.chunk.css.map",
     "static/js/2.6162c70d.chunk.js.LICENSE.txt": "/nanawebdev_outside-digital/static/js/2.6162c70d.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/nanawebdev_outside-digital/static/media/LabGrotesque-Regular.f45d8fdb.woff2",
-    "static/media/sprite.530a552f.svg": "/nanawebdev_outside-digital/static/media/sprite.530a552f.svg"
+    "static/media/sprite.4a6a8f3d.svg": "/nanawebdev_outside-digital/static/media/sprite.4a6a8f3d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b5cf080c.js",
     "static/js/2.6162c70d.chunk.js",
-    "static/css/main.936be129.chunk.css",
-    "static/js/main.184d71ea.chunk.js"
+    "static/css/main.16a9989d.chunk.css",
+    "static/js/main.306a587a.chunk.js"
   ]
 }
