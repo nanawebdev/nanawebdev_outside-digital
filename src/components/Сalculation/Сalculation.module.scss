@@ -1,0 +1,90 @@
+.Calculation {
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.Calculation__legend {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  width: 150px;
+}
+
+.Calculation__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Calculation__price {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.Calculation__year {
+  color: rgba(#000, 0.7);
+}
+
+.Calculation__item {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-bottom: 1px solid #dfe3e6;
+  display: flex;
+}
+
+.Calculation__label {
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Lab Grotesque", monospace;
+}
+
+.Calculation__checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.Calculation__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dfe3e6;
+  border-radius: 6px;
+
+  &:hover {
+    border-color: #000;
+  }
+}
+
+.Calculation__checkmark svg {
+  fill: none;
+  display: none;
+}
+
+.Calculation__checkbox:checked + .Calculation__checkmark,
+.Calculation__checkbox:disabled + .Calculation__checkmark {
+  border: none;
+}
+
+.Calculation__checkbox:checked + .Calculation__checkmark .Calculation__svg {
+  display: block;
+}
+
+.Calculation__checkbox:disabled + .Calculation__checkmark  .Calculation__svg  {
+  display: none;
+}
+
+.Calculation__checkbox:disabled + .Calculation__checkmark .Calculation__disabled {
+  display: block;
+}

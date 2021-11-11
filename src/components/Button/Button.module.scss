@@ -1,0 +1,30 @@
+.Button {
+  background: linear-gradient(
+      255.35deg,
+      #dc3131 0.83%,
+      rgba(255, 79, 79, 0) 108.93%
+    ),
+    #ff5e56;
+  box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: normal;
+  word-wrap: normal;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .Button {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    // margin-bottom: 0;
+  }
+}
